@@ -2,7 +2,7 @@
 This script is used to automate the name adjustment of several hundred wrongly named photos in my personal photo library.
 
 ## Details
-It looks like switching my iPhone has confused the Synology DiskStation photo backups. iOS "Live Photos" are uploaded as two individual files, one HEIC image, and one corresponding MOV video file. Currently, there are a lot of wrongly named MOV files that can't be matched to their HEIC files by the DS Photo app. 
+It looks like switching my iPhone has confused the Synology DiskStation photo backups. iOS "Live Photos" are uploaded as two individual files, one HEIC image, and one corresponding MOV video file. Currently, there are a lot of wrongly named MOV files that can't be matched to their HEIC files by the Synology Photo app. 
 Following, some examples to better understand the problem. Imagine two captured live photos, IMG_0001 und IMG_0002. Here is how it should look like:
 
 1. IMG_0001.HEIC (actual photo file)
