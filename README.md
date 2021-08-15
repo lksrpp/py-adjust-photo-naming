@@ -2,7 +2,7 @@
 This script is used to automate the name adjustment of several hundred wrongly named photos in my personal photo library.
 
 ## Details
-It looks like switching my iPhone has confused the DiskStation photo backups, due to some faulty photo counter setting. As a result, there are a lot of wrongly named files that can't be correctly matched. Following some examplex to better understand the problem. Imagine two captured live photos, IMG_0001 und IMG_0002. Here is how it should look like:
+It looks like switching my iPhone has confused the Synology DiskStation photo backups, due to some faulty photo counter setting. As a result, there are a lot of wrongly named files that can't be correctly matched. Following some examplex to better understand the problem. Imagine two captured live photos, IMG_0001 und IMG_0002. Here is how it should look like:
 
 1. IMG_0001.HEIC (actual photo file)
 2. IMG_0001.MOV (live photo movie file)
