@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # source directory
     source_directory = os.path.join("..", "py-adjust-photo-naming-test")
 
-    # storage list for filanmes to be renamed
+    # storage list for filenames to be renamed
     file_list = []
 
     # first run: build list of filesnames to rename later
@@ -27,7 +27,7 @@ if __name__ == "__main__":
             if entry.is_file() and entry.name.endswith("_1.MOV"):
                 file_list.append(entry.name[:-6] + ".HEIC")
 
-    # second rund: rename identified files
+    # second run: rename identified files
     with os.scandir(source_directory) as dir:
         for entry in dir:
             if entry.is_file() and entry.name in file_list:
